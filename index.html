@@ -1,23 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Home</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <!--
-      Need a visual blank slate?
-      Remove all code in `styles.css`!
-    -->
-    <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
-  </head>
-  <body>
-    <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html">Other page</a>
-    </nav>
-    <main>
-      <h1>Home page</h1>
-    </main>
-  </body>
+<html>
+    <head>
+        <title>Motif</title>
+<!-- metadata -->      
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta content="Ese Odiase" name="author"/>
+
+<meta content="Web Themes for project display." name="description"/>
+
+<!-- stylesheet -->
+<link rel="stylesheet" href="style.css">           
+
+<!-- font-awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
+
+<!-- google fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Noto+Sans:wght@400;500&family=Noto+Serif+Display:wght@300&family=Work+Sans&display=swap" rel="stylesheet">
+
+<!-- favicon -->
+<link rel="icon" type="image/png" sizes="42x42" href="https://ipfs.fleek.co/ipfs/bafybeifi5pftw2obhnb47nu35zmdazjtbu4xup7sjttam4rdxr57f2bcre">
+    </head>
+    <body>
+        <header class="header"></header>
+        <nav class="nav"></nav>
+        <main class="main"></main>
+        
+        <script type="module">
+        import app from "./webApp.js";
+        app();
+        </script>
+    </body>
 </html>
