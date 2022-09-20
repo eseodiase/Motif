@@ -2,7 +2,7 @@ const allprojects =()=>{
             const iframe0 =()=>{
                 return`<div class="iframe" id="one" >
                 <div class="card">
-                <img src="https://eseodiase.github.io/Motif/projects/images/motifProject1.png" class="pic" alt="project1"/>
+                <img src="projects/images/motifProject1.png" class="pic" alt="project1"/>
                 </div>
                 <p>
                 Project One
@@ -18,7 +18,7 @@ const allprojects =()=>{
             const iframe1 =()=>{
                 return`<div class="iframe">
                 <div class="card">
-                <img src="https://eseodiase.github.io/Motif/projects/images/motifProject2.png" class="pic" alt="project2"/>
+                <img src="projects/images/motifProject2.png" class="pic" alt="project2"/>
                 </div>
                 <p>
                 Project Two
@@ -34,7 +34,7 @@ const allprojects =()=>{
             const iframe2 =()=>{
                 return`<div class="iframe">
                 <div class="card">
-                <img src="https://eseodiase.github.io/Motif/projects/images/motifProject3.png" class="pic" alt="project3"/>
+                <img src="projects/images/motifProject3.png" class="pic" alt="project3"/>
                 </div>
                 <p>
                 Project Three
@@ -50,7 +50,7 @@ const allprojects =()=>{
                 const iframe3 =()=>{
                 return`<div class="iframe">
                 <div class="card">
-                <img src="https://eseodiase.github.io/Motif/projects/images/motifProject4.png" class="pic" alt="project4"/>
+                <img src="projects/images/motifProject4.png" class="pic" alt="project4"/>
                 </div>
                 <p>
                 Project Four
@@ -66,7 +66,7 @@ const allprojects =()=>{
             const iframe4 =()=>{
                 return`<div class="iframe">
                 <div class="card">
-                <img src="https://eseodiase.github.io/Motif/projects/images/motifProject5.png" class="pic" alt="project5"/>
+                <img src="projects/images/motifProject5.png" class="pic" alt="project5"/>
                 </div>
                 <p>
                 Project Five
@@ -82,7 +82,7 @@ const allprojects =()=>{
             const iframe5 =()=>{
                 return`<div class="iframe">
                 <div class="card">
-                <img src="https://eseodiase.github.io/Motif/projects/images/motifProject6.png" class="pic" alt="project6"/>
+                <img src="projects/images/motifProject6.png" class="pic" alt="project6"/>
                 </div>
                 <p>
                 Project Six
