@@ -45,7 +45,7 @@ return `<section class="homePage">
             <div class="content2">
             <div class="subContent2">
    <h3>${homeObj.subTitle}</h3>
-   <iframe src="http://localhost:26543/storage/emulated/0/webTemplate/components/project/project.html" class="nftAction"></iframe>
+   <iframe src="components/project/project.html" class="nftAction"></iframe>
    <p>« Explore more projects »</p>
             </div>
             </div>
