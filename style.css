@@ -1,0 +1,489 @@
+body {
+    background: e8effe;
+    color:#050d2c;
+    margin:0;
+    padding:0;
+    width:100vw;
+    height:100vh;
+    font-family: system-ui, sans-serif; 
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+/*darkmode styling*/
+.darkmode{
+    background:#8e9cd3;
+    width:96px;
+    height:49px;
+    top:0;
+    right:0;
+    position:fixed ;
+    text-align:center;
+    padding:5px;
+    z-index:9999;
+}
+.darkmodeBtn{
+    background:#050d2c;
+    padding:16px 28px 16px 28px;
+    top:0;
+    right:0;
+    position: absolute ;
+    margin-top:14px;
+    margin-right:24px;
+    border-radius:15px;   
+}
+.brightMode{
+    padding:16px 28px 16px 28px;
+    top:0;
+    right:0;
+    position: absolute ;
+    margin-top:14px;
+    margin-right:24px;
+    background:azure;
+    border-radius:15px;   
+}
+.circle{
+    width:15px;
+    height:15px;
+    background:azure;
+    padding:3.6px;
+    border-radius:50%;
+    position:absolute;
+    margin-top:-11px;
+    left:4.5px;
+    
+}
+.toggleCirle{
+    width:15px;
+    height:15px;
+    background:#050d2c;
+    padding:3.6px;
+    border-radius:50%;
+    position:absolute;
+    margin-top:-11px;
+    left:28.5px;
+    
+}
+.bodyColorChange{
+    background: #050d2c;
+    color: azure;
+}
+
+/* website title styling */
+.webLabel{
+    padding-left:24px;
+}
+.webLabel{
+    background:#050d2c;
+    width:100vw;
+    padding-top:17px;
+    padding-bottom:23px;
+    margin:0;
+    top:0;
+    position:fixed;
+    color: azure;
+}
+
+/*nav styling*/
+ nav{
+    width:100vw;
+    margin:0;
+    padding:0;
+    color:#050d2c;
+}
+nav ul{
+width:100vw;
+margin:0;
+padding:0;
+background:#050d2c;
+top:0;
+position:fixed;
+}
+nav ul li{
+    display:inline-block ;
+    margin-top:10px;
+    padding:15px;
+    cursor:pointer;
+}
+
+nav ul li a{
+color:#fff;
+text-decoration:none;
+}
+.dev{
+    display:none;
+}
+.logo, .webLabel{
+    font-weight:bold;
+    padding-left:24px;
+    color: azure;
+}
+.logo:hover{
+    background:none;
+}
+.menu_bar{
+    position:fixed;
+    display:none;
+    z-index:9999;
+    color: azure;
+}
+
+/* home page styling */
+    .homePage{
+    clear:both;
+    margin:0;
+    text-align:center;
+    width:100vw;
+    margin-top:50px;
+}
+.topContainer{
+    margin-bottom:20px;
+    width:100vw;
+}
+.content1, .content2{
+    display:inline-block;
+    padding-top:;
+    height:50vh;
+} 
+
+.content1{
+    width:58vw;
+    background: url("https://eseodiase.github.io/Motif/projects/images/homeMotif.png") no-repeat;
+    background-position: right top;
+    background-clip: content-box;
+    background-size: 80%;
+}
+.subContent1{
+    width:26vw;
+}
+.subContent1 h1{
+    font-size:2.4rem;
+    margin-left: 24px;
+    text-align: left;
+    margin-bottom: 0px;
+}
+.subContent1 p{
+    margin-top: 0px;
+    text-align: left;
+    margin-left: 24px;
+}
+.subContent1 .more, .subContent1 .less{
+    display: none;
+}
+.subContent1 button{
+    border:none;
+    width: 240px;
+    padding: 12px;
+    background: #8e9cd3;
+    color: azure;
+    border-radius: 5px;
+    box-shadow:1.5px 8px 8px 0.1px rgba(0,0,0,0.2); 
+}
+.subContent1 button:hover{
+    background: #050d2c;
+    color: #8e9cd3;
+    border-bottom: 0.5px solid #8e9cd3;
+}
+.content2{
+    width:37vw;
+    margin-right: 24px;
+}
+.content2 iframe{
+    width:37vw;
+    margin:0;
+    padding:0;
+}
+.subContent2 h3{
+    padding-top: 25px;
+    margin-bottom:0;
+}
+iframe{
+    border:none ;
+    height: 332px;
+}
+
+.box1{
+    width:26vw;
+}
+.box2{
+    width:34vw;
+}
+.box3{
+    width:37vw; 
+}
+.box3 .fa{
+    padding: 6px 10px 6px 10px;
+}
+.box3 .fa:hover{
+    color: #8e9cd3;
+}
+.box1, .box2, .box3{
+    display:inline-block;
+}
+.box1 p{
+    text-align: left;
+    margin-left: 12px;
+}
+.fa{
+    padding:6px;
+}
+
+/* about page styling */   
+.aboutPage{
+    margin-top: 55px;
+    display: none;
+}
+.aboutUsImg{
+    background:grey;
+}
+
+article{
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+/* contact page styling */
+.contactPage{
+    display: none;
+    margin-top: 80px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.contactPage button{
+    margin-top: 22px;
+    background: #050d2c;
+    color: azure;
+    border:none;
+    border-bottom: 0.5px solid #8e9cd3;
+    width: 240px;
+    padding: 12px;
+    border-radius: 5px;
+    box-shadow:1.5px 8px 8px 0.1px rgba(0,0,0,0.2); 
+}
+.contactPage button:hover{
+    background: #8e9cd3;
+    color: azure;
+}
+
+.contactForm{
+    text-align:center ;
+}
+
+.contactForm label{
+color:#585d67;
+margin-right:12px;
+} 
+
+input, textarea{
+    color: #a0a0a0;
+}
+.contactInput{
+    text-align:left;
+    margin-top:5px;
+}
+.cFormInput, .cFormTxtArea{
+    margin:0;
+    border:none;
+    background:transparent ;
+    text-align:left;
+    width:70vw;
+    padding:20px 0px 0px 0px;
+}
+.cFormTxtArea{
+    margin-left: 42px;
+}
+.txtA{
+    padding-top: 14px;
+    position: absolute;
+    z-index: -1;
+}
+
+.formHr{
+    margin-top:0;
+    border: 0.2px solid #585d67;
+}
+
+.formH3{ 
+background:#050d2c; 
+margin:0px 0px 20px 0px; 
+padding:60px 18px 0px 18px; 
+top:0; border-radius:10px; 
+color:azure;
+height:100px;
+ -webkit-box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+box-shadow: 0 15px 30px rgba(0,0,0,0.2);  
+}
+    
+@media(max-width:756px){
+body{
+    width:100vw;
+}
+
+.darkmode{
+    width:70px;
+}
+
+.darkmodeBtn{
+    margin-right:12px;
+}    
+
+/* mobile nav styling*/
+.webLabel{
+    padding-left: 48px;
+    border-bottom: 0.1px solid #8e9cd3;
+}
+
+nav{
+    width:65vw;
+    margin:0;
+    padding:0;
+}
+nav ul{
+width:65vw;
+height:100vh; 
+position:fixed;
+margin:0;
+padding:0;
+background:#8e9cd3;
+display:none;
+z-index: 9999;
+}
+nav ul li{
+    display:block;
+    padding:14px;
+    color:#fff;
+    float: none;
+}
+.home{
+    margin-top: 0;
+}
+nav ul li a{
+color:#fff
+}
+nav ul li:hover{
+  color:#e8effe;  
+  background:#050d2c;
+}
+
+.logo, .logo:hover{
+    color:#8e9cd3;  
+    background:#e8effe;
+    padding:60px 14px 30px 14px;
+    margin-top:0;
+}
+.dev{
+    text-align: center;
+    display:block;
+    position:absolute;
+    bottom: 0;
+    right:0;
+    left: 0;
+    padding-bottom:30px;
+    text-align:center;
+    font-size: 12px;
+}
+.dev:hover{ 
+    background:none;
+    color:#fff;
+}
+.menu_bar{ 
+    top:-2px;
+    display:block;
+    margin:10px 0px 0px 4px;
+    font-size:30px;
+    font-weight:bold;
+    padding:0px 8px 0px 8px;
+}
+.navigate:hover ul{
+    display:block;
+}
+
+/* home page styling*/
+.homePage{
+        text-align: center;
+        position:fixed;
+        margin-top:45px; 
+        background: url("https://eseodiase.github.io/Motif/projects/images/homeMotif.png") no-repeat;
+    background-position: right top;
+    background-clip: content-box;
+    background-size: 60%;
+}
+    .content1{
+    height:30vh;
+    z-index: 9999;
+    background: none;
+    }
+    
+    .content1,.content2{
+    display:block;
+    width:100vw;
+    border:none;
+}
+.content2{
+height:54vh;
+bottom: 0;
+margin-bottom: 0px;
+
+position: fixed;
+background:-webkit-linear-gradient(top, transparent, #050d2c);
+background:-moz-linear-gradient(top, transparent, #050d2c);
+border-radius:30px 30px 0px 0px;
+}
+.subContent1{
+    width: 100vw;
+}
+.subContent1 h1, .subContent1 p{
+    margin-left:10px;
+    margin-right: 10px;
+}
+.subContent1 .more, .subContent1 .less{
+    display: inline-block;
+    color: #8e9cd3;
+}
+.subContent1 .more:hover, .subContent1 .less:hover{
+    background: rgba(0,0,0,0.1);
+}
+.subContent1 h1{
+    font-size: 1.8rem;
+}
+.content2 h3{
+display: none;
+}
+.subContent2 p{
+    display: none;
+}
+.box1, .box2, .box3{
+    display:none;
+}
+.box3{
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.content2 iframe{
+    width:100vw;
+    height:54vh;
+    padding:0;
+}
+
+.hidden{
+    display: none;
+}
+
+/*about page styling*/
+article{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+/*contact page styling*/
+.contactPage{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+    
+}
+
+
