@@ -1,8 +1,7 @@
 const about =()=>{
    return `<section class="aboutPage">
 <div class="aboutArticle">
-<img src="About_Motif.jpg" alt="aboutUsImg" class="aboutUsImg" 
-width="100%" height="300px"/>
+<img src="About_Motif.jpg" />
 
 <article>
 <h3>About Us</h3>
