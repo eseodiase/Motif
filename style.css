@@ -148,7 +148,7 @@ text-decoration:none;
 
 .content1{
     width:58vw;
-    background: url("components/images/homeMotif.png") no-repeat;
+    background: url("img/homeMotif.png") no-repeat;
     background-position: right top;
     background-clip: content-box;
     background-size: 80%;
@@ -403,7 +403,7 @@ nav ul li:hover{
         text-align: center;
         position:fixed;
         margin-top:45px; 
-        background: url("components/images/homeMotif.png") no-repeat;
+        background: url("img/homeMotif.png") no-repeat;
     background-position: right top;
     background-clip: content-box;
     background-size: 60%;
