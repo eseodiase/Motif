@@ -235,6 +235,7 @@ iframe{
 }
 .aboutUsImg{
     background:grey;
+    height:500px;
 }
 
 article{
@@ -477,6 +478,11 @@ article{
     margin-right: 20px;
     margin-left: 20px;
 }
+
+.aboutUsImg{
+    height:300px;
+}
+
 
 /*contact page styling*/
 .contactPage{
