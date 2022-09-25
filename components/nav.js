@@ -10,7 +10,7 @@ l4: "Connect",
 l5: "Ese Odiase",
 
 //developer's url:
-url: "https://www.eseodiase.eth",
+url: "http://www.eseodiase.website/",
 
 //nav icon:
 bar: "&#9552;",
