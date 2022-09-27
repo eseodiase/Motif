@@ -35,7 +35,7 @@ const all = allObjectsUsedOnHeader;
 <li class="about"><a href="#">${all.l3}</a></li>
 <li class="connect"><a href="#">${all.l4}</a></li>
 <li class="dev">
-<img src="https://ipfs.fleek.co/ipfs/bafybeiansltfu2wrrorxdywurnpugc2kup6bycyuulurz7vc5avdibjqbu" width="50" height="50" style="border-radius:50%; background:#26292e;" alt="Dev"/>
+<img src="https://ipfs.fleek.co/ipfs/bafybeiduikxoxgjejuihp2jyzdgjtu5ywepzygeld5io4og6nc3v4cpic4" width="50" height="50" style="border-radius:50%; background:#26292e;" alt="Dev"/>
     <br/>
     Developed by
     <a href=${all.url}>${all.l5}</a>
