@@ -1,12 +1,1 @@
-const header =()=>{
-    return `<div class="header">
-    
-    <div class="darkmode">
-    <span class="darkmodeBtn">
-    <span class="circle"></span>
-    </span>
-    </div> 
-    
-    </div>`;
-}
-export default header;
+function _0x58dc(_0x43f263,_0x27db99){const _0xe7b979=_0xe7b9();return _0x58dc=function(_0x58dc33,_0x4ba8fc){_0x58dc33=_0x58dc33-0xa5;let _0xe2c9f2=_0xe7b979[_0x58dc33];return _0xe2c9f2;},_0x58dc(_0x43f263,_0x27db99);}(function(_0x180365,_0x3945ed){const _0x27fcd2=_0x58dc,_0x3d5f8d=_0x180365();while(!![]){try{const _0x397670=parseInt(_0x27fcd2(0xaa))/0x1+parseInt(_0x27fcd2(0xad))/0x2+-parseInt(_0x27fcd2(0xa6))/0x3*(parseInt(_0x27fcd2(0xae))/0x4)+-parseInt(_0x27fcd2(0xac))/0x5+parseInt(_0x27fcd2(0xaf))/0x6*(-parseInt(_0x27fcd2(0xa8))/0x7)+-parseInt(_0x27fcd2(0xa9))/0x8*(-parseInt(_0x27fcd2(0xab))/0x9)+parseInt(_0x27fcd2(0xa5))/0xa;if(_0x397670===_0x3945ed)break;else _0x3d5f8d['push'](_0x3d5f8d['shift']());}catch(_0xbbbd4e){_0x3d5f8d['push'](_0x3d5f8d['shift']());}}}(_0xe7b9,0xb51a4));const header=()=>{const _0x79436f=_0x58dc;return _0x79436f(0xa7);};export default header;function _0xe7b9(){const _0x5d578c=['671991USzvQK','<div\x20class=\x22header\x22>\x0a\x0a\x20\x20\x20\x20\x0a\x0a\x20\x20\x20\x20<div\x20class=\x22darkmode\x22>\x0a\x0a\x20\x20\x20\x20<span\x20class=\x22darkmodeBtn\x22>\x0a\x0a\x20\x20\x20\x20<span\x20class=\x22circle\x22></span>\x0a\x0a\x20\x20\x20\x20</span>\x0a\x0a\x20\x20\x20\x20</div>\x20\x0a\x0a\x20\x20\x20\x20\x0a\x0a\x20\x20\x20\x20</div>','14SBToFB','8mkgsdD','1110231iCPmwo','1485747PdHVAR','5609500mTGqNY','1625954AkKrQe','20zLIrmt','3070776ycuLbv','19189820unjAed'];_0xe7b9=function(){return _0x5d578c;};return _0xe7b9();}
