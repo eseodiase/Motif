@@ -17,3 +17,5 @@ CONTRIBUTORS: none,
 DEVELOPER: Ese Odiase,
 
 URL: http://www.eseodiase.website/
+
+Do feel free to contact developer for any assistance relating to this project.
